@@ -7,7 +7,7 @@ Public MyDir As String, fn As String
 ' ------------------------------------------------------------------------------------------- '
 ' Title: Debug Macros
 ' Author: Guilherme Matheus
-' Date: Script created on 23.04.2021
+' Date: Script created on 31.03.2021
 ' Script and data info: This script can debug macros that are being called from rules, that can`t be debuged here
 '--------------------------------------------------------------------------------------------'
 
@@ -30,7 +30,7 @@ End Sub
 ' ------------------------------------------------------------------------------------------- '
 ' Title: Save e-mail attachments
 ' Author: Guilherme Matheus
-' Date: Script created on 23.04.2021
+' Date: Script created on 31.03.2021
 ' Script and data info: This script can save e-mail attachments according to file extension
 '--------------------------------------------------------------------------------------------'
 
@@ -54,7 +54,7 @@ Sub Save_Attachments(Email As Outlook.mailItem)
     If status_email <> 0 Then Exit Sub
     
         'I define which path will be saved the files in attachments of the emails
-        DiretorioAnexos = "\\VMSPFSFSCH15\LDH_Share\automaticarchive\staging\prod\decrypted"
+        DiretorioAnexos = "Paste your folder path here"
     
         'Debug.Print DiretorioAnexos
     
@@ -89,7 +89,7 @@ Sub Save_Attachments(Email As Outlook.mailItem)
 ' ------------------------------------------------------------------------------------------- '
 ' Title: Unzip a zipped file
 ' Author: Guilherme Matheus
-' Date: Script created on 23.04.2021
+' Date: Script created on 31.03.2021
 ' Script and data info: This script can unzip a zipped file through Windows object
 '--------------------------------------------------------------------------------------------'
 
@@ -118,13 +118,13 @@ Sub Unzip_Files()
     Dim file_name As String
     
     'Path that the file will be unziped
-    path_ext = "\\VMSPFSFSCH15\LDH_Share\automaticarchive\staging\prod\decrypted\"
+    path_ext = "Paste your folder path here"
     
     'Find out the name of the zip file + the path it is in
     file_name = Dir(path_ext & "*.zip")
         
     'Path that the zipped file is located
-    path_file = "\\VMSPFSFSCH15\LDH_Share\automaticarchive\staging\prod\decrypted\" & file_name
+    path_file = "Paste your folder path here" & file_name
         
     'Run the macro as long as there are zipped files in the folder
     Do While Len(file_name) > 0

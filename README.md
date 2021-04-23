@@ -1,6 +1,6 @@
-# VBA scripts
+# Save attachments from e-mail to a folder
 
-This repository will be used to store the VBA scripts used in processes in both Microsoft Outlook and Microsoft Excel.
+This repository will be used to store the VBA scripts for Microsoft Outlook run a macro that can save any attachments from email to a folder.
 
 ## **Prerequisites**
 

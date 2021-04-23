@@ -26,3 +26,5 @@ That way, the `Run a Script` option will appear normally.
 1.  Download the regedit file according to the version of your Microsoft Outlook
 2.  Execute the regedit file to add value in the right path
 3.  Restart your Microsoft Outlook
+
+***In order to work, you need to copy and paste the content of the file `ThisOutlookSession.vb` into MS Outlook.***

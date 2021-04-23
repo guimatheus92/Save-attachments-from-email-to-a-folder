@@ -28,3 +28,9 @@ That way, the `Run a Script` option will appear normally.
 3.  Restart your Microsoft Outlook
 
 ***In order to work, you need to copy and paste the content of the file `ThisOutlookSession.vb` into MS Outlook.***
+
+***Outlook Rule***
+
+In order to create your rule on Outlook, you can import the rule called `SaveAtchFromEmail.rwz` to your MS Outlook rules and change the email subject that the file will be received as the image in the repository.
+
+You can access the article on [Medium](https://guimatheus92.medium.com/save-attachments-from-e-mail-to-a-folder-with-ms-outlook-vba-2382d3917abc "Medium") as well!
